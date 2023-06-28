@@ -1,0 +1,17 @@
+import random 
+import time
+
+response = input ("enter “y” to continue or “n” to exit.:")
+
+no = random.randint(1,6) 
+
+
+while response == "y": 
+    time.sleep(1)
+    print(no) 
+
+while response == "n":
+    time.sleep(1)
+    print("Thank you for trying it!")
+
+
